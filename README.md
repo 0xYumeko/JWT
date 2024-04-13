@@ -1,3 +1,6 @@
+![iwt](https://github.com/0x3f3c/JWT/assets/154844497/d4c5fed4-c3e2-4c61-8564-14e6dba097a4)
+
+
 This code is a bash script that displays an ASCII art of a robot and defines a function to generate a JSON Web Token (JWT).
 
 The ASCII art is displayed using echo command with escape sequences to change the text color to red. The art consists of a robot's head and upper body.
