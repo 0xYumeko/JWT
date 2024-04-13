@@ -19,5 +19,8 @@ Note that this code snippet only implements the encoding of the header and paylo
 ```
 ./jwt.sh '{"user_id": 123, "username": "example_user"}' "your_secret_key" generate
 ```
+```
+./jwt.sh "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiZXhhbXBsZV91c2VyIn0" "your_secret_key" decode
+```
 
 
