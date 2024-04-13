@@ -22,5 +22,7 @@ Note that this code snippet only implements the encoding of the header and paylo
 ```
 ./jwt.sh "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiZXhhbXBsZV91c2VyIn0" "your_secret_key" decode
 ```
+![Screenshot from 2024-04-13 12-02-42](https://github.com/0x3f3c/JWT/assets/154844497/5689bb11-7891-4dbc-b0fc-8854b8d334c5)
+
 
 
