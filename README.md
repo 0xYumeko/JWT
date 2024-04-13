@@ -15,5 +15,6 @@ The function encodes the header and payload using base64url encoding.
 The function concatenates the encoded header, payload, and a signature (not implemented in this code snippet) with a . delimiter to form the JWT.
 Note that this code snippet only implements the encoding of the header and payload, and does not include the generation of a signature, which is required for a valid JWT. Additionally, the base64url encoding used in this code snippet may not be secure enough for production use, and a more secure encoding method should be used instead.
 
-
+```./jwt.sh '{"user_id": 123, "username": "example_user"}' "your_secret_key" generate
+```
 
